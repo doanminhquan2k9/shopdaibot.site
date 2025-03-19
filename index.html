@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giới Thiệu Telegram: @Vanduy0982</title>
+    <style>
+        body {
+            background-color: #000;
+            font-family: 'Courier New', Courier, monospace;
+            color: #00ff00;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
 
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            animation: glitch 1s infinite;
+        }
+
+        p {
+            font-size: 1.2rem;
+            animation: text-glow 2s ease-in-out infinite;
+        }
+
+        .highlight {
+            color: #ff00ff;
+        }
+
+        .telegram-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            border: 2px solid #00ff00;
+            color: #00ff00;
+            text-decoration: none;
+            font-size: 1.5rem;
+            letter-spacing: 2px;
+            transition: 0.3s;
+            animation: pulse 1s infinite;
+        }
+
+        .telegram-link:hover {
+            background-color: #00ff00;
+            color: #000;
+            transform: scale(1.1);
+        }
+
+        @keyframes glitch {
+            0% {
+                text-shadow: 2px 0 5px rgba(0,255,0,0.5), -2px 0 5px rgba(0,255,0,0.5);
+            }
+            25% {
+                text-shadow: -2px 0 5px rgba(0,255,0,0.5), 2px 0 5px rgba(0,255,0,0.5);
+            }
+            50% {
+                text-shadow: 2px 0 5px rgba(255,0,255,0.5), -2px 0 5px rgba(255,0,255,0.5);
+            }
+            75% {
+                text-shadow: -2px 0 5px rgba(255,0,255,0.5), 2px 0 5px rgba(255,0,255,0.5);
+            }
+            100% {
+                text-shadow: 2px 0 5px rgba(0,255,0,0.5), -2px 0 5px rgba(0,255,0,0.5);
+            }
+        }
+
+        @keyframes text-glow {
+            0% {
+                text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+            }
+            50% {
+                text-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00;
+            }
+            100% {
+                text-shadow: 0 0 5px #ff00ff, 0 0 10px #ff00ff, 0 0 15px #ff00ff;
+            }
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+            100% {
+                transform: scale(1);
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1>👾 Chào mừng đến với <span class="highlight">Telegram</span>!</h1>
+            <p>Tôi là <span class="highlight">@Vanduy0982</span>, chuyên nhận thiết kế và lập trình <span class="highlight">tất cả các website</span>.</p>
+            <p>Hãy liên hệ ngay để tôi giúp bạn xây dựng website hiện đại, thông minh và sống động!</p>
+            <a href="https://t.me/Vanduy0982" class="telegram-link">Nhấn vào đây để liên hệ với tôi!</a>
+        </div>
+    </div>
+</body>
+</html>
